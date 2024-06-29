@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: cursive;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.navbar{
+   min-height: 20px;
+    width:100%;
+    display: flex;
+    
+   
+}
+.navlist{
+    display: flex;
+    
+    height: 5vh;
+    width: 100%;
+    text-decoration: none;
+    gap: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    
+    
+    
+}
+.navlist p::after{
+
+    transition: transform .5s;
+}
+.navlist p:hover{
+    text-decoration: underline;
+    
+    
+}
+.navlist p a{
+    color: #97FEED;
+    text-decoration: none;
+}
+.leftcont, .rightcont{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.leftcont{
+    background-color: #071952;
+   align-items: center;
+    width:80%;
+    display: flex;
+    
+    
+}
+.rightcont{
+    background-color: #97FEED;
+    width:20%
+}
+.content{
+    padding-left: 10px;
+}
+.content h3{
+    color: white;
+}
+.content span {
+    color:#97FEED;
+    font-size: 21px;
+}
+.content h1{
+    color:#97FEED;
+    font-size: 50px;
+}
+ p{
+    color:white;
+    line-height: 35px;
+    margin-top: 15px;
+   margin-left: 20px;
+   font-size: large;
+    
+}
+.buttoncont button{
+    border: 2px solid #97FEED;
+    border-radius: 10px;
+    color: #97FEED;
+    font-size: 1.1rem;
+    padding: 0.8rem 1.5rem;
+    margin-top: 30px;
+    background-color: transparent;
+
+}
+.buttoncont .b2{
+    margin-left: 19px;
+}
+.buttoncont button a{
+    color: #97FEED;
+}
+.buttoncont .b1:hover{
+    background-color: #97FEED;
+}
+.buttoncont .b2:hover{
+    background-color: #97FEED;
+} 
+.buttoncont button :hover{
+    color: #071952;
+}
+.photo .frame{
+    aspect-ratio: 3;
+position: absolute;
+top:20%;
+left:70%;
+transform: translate(-50% -50%);
+
+}
+
+.frame:nth-child(2){
+    width:17rem;
+    height: 25rem;
+    background-color:aqua;
+    border: 8px solid #071952;
+    background-image: url(Profile\ picture\ \(1\).jpg);
+    background-size: cover;
+    background-position-x: -52px;
+}
+.qualification{
+    font-size: 20px;
+    height:350px;
+    width: 100%;
+    display: flex;
+}
+ .left{
+    height: 350px;
+    width:80%;
+    background-color: #071952;
+    
+    
+}
+.right{
+    height: 350px;
+    width: 20%;
+    background-color: #97FEED;
+    
+}
+.contentb h1{
+    color: #97FEED;
+    padding-left: 180px;
+    text-decoration: underline;
+}
+.contentb .details{
+    color: azure;
+    margin-top: 20px;
+    padding-left: 180px;
+    text-align: left;
+    line-height: 40px;
+}
+.photo2, .box{
+    aspect-ratio: 3;
+position: absolute;
+
+left:70%;
+transform: translate(-50% -50%);
+
+}
+
+.box:nth-child(2){
+    width:17rem;
+    height: 20rem;
+    background-color:aqua;
+    border: 8px solid #071952;
+    background-image: url(photo_20.jpg);
+    background-size: cover;
+    background-position-x: -52px;
+}
+.connect{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    
+}
+ .daaye{
+    height: 70px;
+    width: 80%;
+    background-color: #071952;
+    border-top: 5px solid #97FEED;
+}
+ .baaye{
+    height: 70px;
+    width: 20%;
+    background-color: #97FEED;
+    border-top: 5px solid #071952;
+}
+.social{
+    height: 50px;
+    width: 40%;
+    justify-content:space-evenly;
+    margin-left: 250px;
+    display: flex;
+    overflow: hidden;
+}
+
+strong{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    color: #97FEED;
+}
+.social > a > img {
+    filter: grayscale(1);
+    transition:ease-in
+    
+}
+.social > a > img:hover{
+    scale: 1.15s;
+    filter: grayscale(0);
+}
+a img{
+    height: 50px;
+    width: 50px;
+    
+    margin-left: 5px;
+}
+
+.msgbox{
+    height:600px;
+    width:100%;
+    background-color: #97FEED;
+    display: flex;
+    flex-direction: row;
+}
+
+.daaye1{
+    height:600px;
+    width: 80%;
+    background-color: #071952;
+}
+
+.baaye1{
+    height:600px;
+    width: 20%;
+    background-color: #97FEED;
+}
+.mainmsgbox{
+    height: 400px;
+    width:400px;
+    background-color: transparent;
+    border:5px solid #97FEED;
+    margin-left: 180px;
+    display: flex;
+    flex-direction: column;
+    color: #97FEED;
+    
+}
+.daaye1 h1{
+    color: #97FEED;
+    padding-left: 180px;
+    padding-bottom: 30px;
+    text-decoration: underline;
+    text-shadow: 20px #97FEED;
+    
+    text-overflow: ellipsis;
+
+}
+input{
+    height: 30px;
+    width: 300px;
+    line-height: 80px;
+    padding-left: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom:3px solid #97FEED;
+    background-color: transparent;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+label{
+    text-transform: capitalize;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    color: #97FEED;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+
+.feed{
+    height: 30px;
+    width: 300px;
+    line-height: 30px;
+    padding-left: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom:3px solid #97FEED;
+    background-color: transparent;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    color: #97FEED;
+    font-size: large;
+}
+.submit1{
+    height:30px;
+    width: 200px;
+    margin-left: 90px;
+    
+    }
+.photo3, .dibba{aspect-ratio: 3;
+    position: absolute;
+    left:70%;
+    transform: translate(-50% -50%);
+    }
+    
+.dibba:nth-child(2){
+        width:17rem;
+        height: 20rem;
+        background-color:aqua;
+        border: 8px solid #071952;
+        background-image: url(photo3.jpg);
+        background-size: cover;
+        background-position-x: -30px;
+        margin-top: 90px;
+    }
+
